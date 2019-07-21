@@ -1,0 +1,251 @@
+body {
+	font-family: Arial;
+	color: #757575;
+}
+
+h1, h2, h3 {
+	color: #383838;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+p {
+	font-size: 15px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4987x6');
+  src:  url('fonts/icomoon.eot?4987x6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4987x6') format('truetype'),
+    url('fonts/icomoon.woff?4987x6') format('woff'),
+    url('fonts/icomoon.svg?4987x6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-internet:before {
+  content: "\e901";
+  color: #fff;
+  background-color: #1b5777;
+}
+.icon-culture:before {
+  content: "\e902";
+  color: #fff;
+}
+
+/** Icon style*/
+@font-face {
+  font-family: 'icomoon';
+  src:   url('assets/icomoon.svg?4987x6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-internet:before {
+  content: "\e901";
+  color: #fff;
+  background-color: #594e96;
+  padding: 6px;
+}
+.icon-culture:before {
+  content: "\e902";
+  color: #fff;
+  background-color: #beca3a;
+  padding: 6px;
+}
+.icon-handshake:before {
+  content: "\e900";
+  color: #fff;
+  background-color: #1b5777;
+  padding: 6px;
+}
+
+
+.area-h {
+	margin-top: 48px;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.container.main {
+	margin-top: -64px;
+}
+
+#logo {
+	background-image: url(assets/logo.jpg);
+	background-repeat:no-repeat;
+	background-size:contain;
+	width: 142px;
+	height: 142px;
+	border-radius: 71px;
+}
+
+.contact .contact-img {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin-right: 10px;
+}
+
+.contact-link {
+	padding-left: 34px;
+}
+
+.contact-link-global {
+	background-image: url(assets/web.svg);
+	background-repeat: no-repeat;
+}
+
+.contact-link-lin {
+	background-image: url(assets/in.svg);
+	background-repeat: no-repeat;
+}
+ .area-of-focus {
+	 background: #f7f7f7;
+	 margin: 0 10px 10px 0;
+	 padding: 6px; 
+ }
+
+ .divisor {
+	 margin-bottom: 14px;
+ }
+
+ #search {
+	 background: url(assets/search.svg) no-repeat;
+	 background-size: 18px 18px; 
+	 background-position-y: center;
+	 background-position-x: 5px;
+	 background-color: #ffffff;
+	 padding-left: 29px;
+	 float: right;
+ }
+
+ .bg {
+	 background: url(assets/background-image.jpg) no-repeat;
+	 height: 200px;
+	 width: 100%;
+	 background-size: cover;
+ }
+
+ .item {
+	 background-color: #ffffff;
+	 padding: 18px;
+ }
+
+ .item img{
+	 float: left;
+	 width: 80px;
+	 height: 80px;
+	 margin-right: 12px;
+	 margin-bottom: 12px;
+ }
+
+.item h1 {
+	margin-bottom: 0px;
+}
+
+ .item p {
+	 clear: both;
+ }
+
+.item span {
+  font-size: 12px;
+ }
+
+ .details-btn {
+	 width: 100%;
+	 background-color: #ffa500;
+	 border-color: transparent;
+ }
+
+ .details-btn:hover {
+	background-color: #ffa500;
+	border-color: transparent;
+}
+
+.item-subtitle {
+	text-align: right;
+}
+
+ #footer {
+	 background-color: #f8f8f8;
+	 padding-bottom: 96px;
+ }
+
+ #footer > .container {
+	 padding-top: 96px;
+ }
+
+ #footer > .container > .row:nth-child(1) {
+	 margin-bottom: 48px;
+ }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+ #search {
+	 float: none;
+ }
+
+ #footer .container {
+	padding-top: 18px;
+ }
+ 
+ #footer > .container > .row:nth-child(1) {
+	 margin-bottom: 0px;
+ }
+
+ .search > div > hr:nth-child(3) {
+	 margin-bottom: 0;
+ }
+
+ #footer .item {
+	 margin-bottom: 12px;
+ }
+
+
+}
